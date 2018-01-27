@@ -45,7 +45,7 @@ option {
 }
 
 
-/*=== BASE ===*/
+/*=== BASE 基本樣式 ===*/
 
 body {
     background: #f7f7f7;
@@ -64,3 +64,53 @@ a {
 a:hover {
     color: #007bff;
 }
+
+
+/*=== debug ===*/
+
+
+/* * {border: 1px solid #000;} */
+
+body {
+    border: 0;
+}
+
+
+/*=== LAYOUT 版面 ===*/
+
+.container {
+    width: 800px;
+    margin: 0 auto;
+}
+
+header {
+    overflow: hidden;
+}
+
+
+/*=== COMPONENT 元件 ===*/
+
+.logo {
+    float: left;
+}
+
+.logo a {
+    display: inline-block;
+    width: 153px;
+    height: 24px;
+    background: url("../wbc/img/logo.png") 0 0 no-repeat;
+    text-indent: 154px;
+    white-space: nowrap;
+    overflow: hidden;
+}
+
+nav {
+    float: right;
+}
+
+nav li {
+    display: inline-block;
+}
+
+
+/*=== MODULE 模組 ===*/
